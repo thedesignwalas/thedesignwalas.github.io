@@ -119,12 +119,15 @@ header{position:sticky;top:0;z-index:5;background:var(--navy)}
 /* contact */
 .contact{background:var(--navy);color:var(--cream)}
 .contact .display{font-size:clamp(38px,9vw,128px);line-height:.95;color:var(--cream);margin-bottom:var(--s6)}
-.contact-grid{display:grid;gap:var(--s6)}
-@media(min-width:900px){.contact-grid{grid-template-columns:1fr 1fr;align-items:end}}
+.contact-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:var(--s6)}
+.contact-grid>*{min-width:0}
+@media(min-width:900px){.contact-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:end}}
 .contact ul{list-style:none;padding:0;display:grid;gap:var(--s2)}
 .contact li a{display:flex;align-items:center;justify-content:space-between;gap:var(--s2);min-height:48px;padding:0 var(--s2);border:2px solid var(--cream);border-radius:var(--r1);font-family:var(--font-label);font-size:16px;letter-spacing:.08em;color:var(--cream);text-decoration:none;transition:background 150ms var(--ease),color 150ms var(--ease),border-color 150ms var(--ease)}
 .contact li a .k{color:var(--yellow);margin-right:var(--s1);transition:color 150ms var(--ease)}
 .contact li a .go{font-size:20px;flex:none}
+.contact li a>span:first-child{min-width:0;overflow-wrap:anywhere}
+@media(max-width:480px){.contact li a{font-size:14px;letter-spacing:.04em;padding-block:8px}}
 .contact li a:hover{background:var(--yellow);border-color:var(--yellow);color:var(--ink)}
 .contact li a:hover .k{color:var(--ink)}
 .contact .lead{margin-bottom:var(--s4)}
@@ -198,6 +201,9 @@ html.shut .shutter{display:flex}
 .ring .measure .h1{top:-10%}.ring .measure .h2{bottom:-10%}
 .ring .measure .v1{left:-10%}.ring .measure .v2{right:-10%}
 .ring img{position:relative;z-index:1}
+/* guide lines are a desktop flourish: on phones they cross the whole hero */
+@media(max-width:899px){.ring .measure{display:none}}
+html,body{overflow-x:clip}
 </style>
 </head>
 <body>
