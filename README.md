@@ -1,16 +1,66 @@
-## Hi there 👋
+# 🎨 The Design Walas
 
-<!--
-**thedesignwalas/thedesignwalas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**A creative design studio from Jorhat, Assam.**
+Global-standard design for local brands.
 
-Here are some ideas to get you started:
+> "Great design is not a luxury. It's a strategy."
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🌐 **Live site:** https://YOUR-USERNAME.github.io/YOUR-REPO/
+📸 **Instagram:** [@thedesignwalas](https://instagram.com/thedesignwalas)
+
+---
+
+## 👋 About Us
+
+The Design Walas (TDW) is a creative design studio. We partner with entrepreneurs and small businesses at every stage of their journey, from naming and identity to campaigns, packaging and digital presence.
+
+We combine strategic thinking with obsessive craft. Our work doesn't just look good. It performs.
+
+---
+
+## 🧭 What We Do
+
+- 🏷️ **Brand Identity**
+- 📦 **Packaging**
+- 📱 **Digital and Social**
+- 💻 **Web and UI**
+
+---
+
+## 🔥 Our Three Pillars
+
+1. 🎯 **Strategic.** Design that performs, not just impresses. Every decision earns its place.
+2. 🔍 **Obsessive.** We iterate until every pixel earns its place. Craft is non-negotiable.
+3. 📍 **Local.** Rooted in real brands and real communities. Local first, always.
+
+---
+
+## 🗣️ How We Speak
+
+**Bold. Strategic. Energetic. Human.**
+
+Short sentences. Clear intent. Zero filler.
+
+---
+
+## 🚀 Hosting
+
+This website is hosted on **GitHub Pages**. Every push to the main branch updates the live site.
+
+---
+
+## 📬 Contact
+
+- ✉️ contact.thedesignwalas@gmail.com
+- 📞 +91 6900180243 / 7099033062
+- 📸 [@thedesignwalas](https://instagram.com/thedesignwalas)
+
+---
+
+## ⚖️ Copyright
+
+© The Design Walas. The TDW name, logo and brand assets are the property of the studio. Please do not reuse them without permission.
+
+---
+
+**Let's make something unforgettable.** 💥
