@@ -5,7 +5,7 @@ Global-standard design for local brands.
 
 > "Great design is not a luxury. It's a strategy."
 
-🌐 **Live site:** https://YOUR-USERNAME.github.io/YOUR-REPO/
+🌐 **Live site:** (https://thedesignwalas.github.io/)
 📸 **Instagram:** [@thedesignwalas](https://instagram.com/thedesignwalas)
 
 ---
