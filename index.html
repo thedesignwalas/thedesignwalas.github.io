@@ -235,7 +235,7 @@ html,body{overflow-x:clip}
     <svg class="badge" viewBox="0 0 200 200" aria-hidden="true" focusable="false"><defs><path id="bp" d="M100,100 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0"/></defs><g><text><textPath href="#bp" textLength="500" lengthAdjust="spacing">CREATIVE DESIGN STUDIO · JORHAT · ASSAM · WORLDWIDE · </textPath></text></g><path d="M84 90l16 22 16-22" fill="none" stroke="currentColor" stroke-width="5"/></svg>
     <div class="hero-meta label"><span class="tag">Creative design studio</span><span>Jorhat, Assam</span><button class="clock" type="button" title="Click: compare with your time"><span class="dot" aria-hidden="true"></span><time id="jt">-- --- · --:--:-- IST</time></button></div>
     <h1><span>Great</span><span>design</span><span>is a</span><span>strategy.</span></h1>
-    <p class="rotator" aria-label="Built for small businesses, startups, restaurants, local brands, global brands, D2C brands, homegrown labels, founders, creators, entrepreneurs, first-time founders, Assam to the world, Jorhat and beyond, and founders worldwide"><span aria-hidden="true">Built for</span><span class="rot-win" aria-hidden="true"><span class="rot-word">chai stalls.</span></span></p>
+    <p class="rotator" aria-label="Built for small businesses, startups, local brands, global brands, D2C brands, homegrown labels, founders, creators, entrepreneurs, first-time founders, Assam and the world, Jorhat and beyond, and founders worldwide"><span aria-hidden="true">Built for</span><span class="rot-win" aria-hidden="true"><span class="rot-word">small businesses.</span></span></p>
     <div class="hero-row">
       <div>
         <p class="lead">We build brands that actually perform. Identity, packaging, web and social for founders who want to be seen.</p>
@@ -247,7 +247,7 @@ html,body{overflow-x:clip}
 </section>
 
 <div class="band">
-  <div class="wrap"><p>Chai stalls, cafés, salons, boutiques. Global-standard design at rates a local business can say yes to.</p></div>
+  <div class="wrap"><p>Small businesses, startups, local brands. Global-standard design at rates a local business can say yes to.</p></div>
 </div>
 
 <section id="services">
@@ -391,7 +391,7 @@ hs.addEventListener('pointermove',function(e){var r=hs.getBoundingClientRect();s
 hs.addEventListener('pointerleave',function(){sp.classList.remove('on')});
 
 /* rotating hero line */
-var rw=$('.rot-word'),rl=['small businesses.','startups.','restaurants.','local brands.','global brands.','D2C brands.','homegrown labels.','founders.','creators.','entrepreneurs.','first-time founders.','Assam to the world.','Jorhat and beyond.','founders worldwide.'],ri=0;
+var rw=$('.rot-word'),rl=['small businesses.','startups.','local brands.','global brands.','D2C brands.','homegrown labels.','founders.','creators.','entrepreneurs.','first-time founders.','Assam and the world.','Jorhat and beyond.','founders worldwide.'],ri=0;
 setTimeout(function(){setInterval(function(){ri=(ri+1)%rl.length;gsap.to(rw,{yPercent:-110,opacity:0,duration:.6,ease:'power3.in',onComplete:function(){rw.textContent=rl[ri];gsap.fromTo(rw,{yPercent:110,opacity:0},{yPercent:0,opacity:1,duration:.7,ease:'power3.out'})}})},3000)},8500);
 
 /* shop shutters */
