@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://thedesignwalas.github.io/TDW_Logo.png" alt="The Design Walas logo" width="160">
+  <img src="https://thedesignwalas.github.io/TDW Logo.png" alt="The Design Walas logo" width="160">
 </p>
 
 # 🎨 The Design Walas
